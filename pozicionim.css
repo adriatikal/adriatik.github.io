@@ -1,0 +1,126 @@
+body {
+    background-color: bisque;
+}
+#h1 {
+    color: rgb(129, 12, 12);
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(204, 109, 109);
+  }
+  
+  li {
+    float:left;
+    border-right:1px solid rgb(244, 243, 243);
+  }
+  #li1 {float:right}
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(#lapsi) {
+    background-color: rgb(83, 50, 50);
+  }
+  #a111:hover {
+    color: #04AA6D;
+    transition: 2s;
+  }
+
+  #lapsi {
+    background-color: #04AA6D;
+  }
+form {
+    float: right;  
+    display:inline-block;
+    
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px solid rgb(157, 100, 100);
+    border-radius: 4px;
+    
+}
+  input {
+    justify-content:space-evenly;
+    width: auto;
+    padding: 5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(139, 56, 56);
+    border-radius: 4px;
+  }
+
+div.galeria {
+    border: 1.5px solid rgb(199, 172, 172);
+}
+  
+div.galeria:hover {
+    border: 1px solid rgb(64, 59, 59);
+}
+  
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+  
+div.pershkrimi {
+    padding: 15px;
+    text-align: left;
+}
+  
+*{
+    box-sizing: border-box;
+}
+  
+.ekspozita {
+    padding: 0 5px;
+    float: left;
+    width: 25%;
+}
+  
+@media only screen and (max-width: 800px) {
+    .ekspozita {
+      width: 50%;
+      margin: 5px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .ekspozita {
+      width: 100%;
+    }
+  }
+  
+
+.some-container {
+    display:inline-flex;
+    justify-content:space-evenly;
+    text-align: left;
+    margin: 5px;
+}
+p {
+    margin: 3px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgb(18, 71, 119);
+    text-shadow: 2px 2px 5px rgb(248, 13, 13);
+    text-indent: 10px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
